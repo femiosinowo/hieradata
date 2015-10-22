@@ -1,0 +1,2 @@
+resolver::dns_servers: ['10.0.0.10','10.0.0.11']
+resolver::add_external: false
