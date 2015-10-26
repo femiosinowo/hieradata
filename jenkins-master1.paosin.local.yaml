@@ -1,3 +1,7 @@
+---
+resolver::dns_servers: ['10.0.0.10']
+resolver::add_external: true
+
 jenkins::jenkins_ui_user: 'jenkins'
 jenkins::jenkins_ui_pass: 'jenkins'
 jenkins::jenkins_username: 'jenkins'

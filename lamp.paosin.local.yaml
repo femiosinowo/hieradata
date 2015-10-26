@@ -1,3 +1,7 @@
+---
+resolver::dns_servers: ['10.0.0.10']
+resolver::add_external: true
+
 lamp::lamp_group: 'lamp'
 lamp::lamp_home: '/home/lamp'
 lamp::lamp_password: 'P@ssw0rd'
