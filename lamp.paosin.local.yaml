@@ -3,8 +3,7 @@ lamp::lamp_home: '/home/lamp'
 lamp::lamp_password: 'P@ssw0rd'
 lamp::mysql_password: 'P@ssw0rd'
 
-resolver::dns_servers: ['10.0.0.10','10.0.0.11']
-resolver::add_external: 'false'
+ 
 
 
 ---
