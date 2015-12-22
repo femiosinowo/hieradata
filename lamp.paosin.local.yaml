@@ -3,7 +3,8 @@ lamp::lamp_home: '/home/lamp'
 lamp::lamp_password: 'P@ssw0rd'
 lamp::mysql_password: 'P@ssw0rd'
 
- 
+classes:
+  - role::lamp
 
 
 ---
