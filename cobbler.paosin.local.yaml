@@ -1,4 +1,0 @@
-firewall::desc: '100 allow multiple ports to be opened'
-firewall::ports: [22,69,80,443,25150,25151]
-firewall::proto: tcp
-firewall::action: accept
