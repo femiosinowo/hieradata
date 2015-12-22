@@ -3,6 +3,8 @@ firewall::ports: [22,443,61613,8140,8088]
 firewall::proto: tcp
 firewall::action: accept
 
+r10k_p::github_api_token: 80ac09ee8f30f357502ddf643f4909d1600aee3a
+
 classes:
   - epel
   - role::puppetmaster
