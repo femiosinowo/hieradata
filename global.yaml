@@ -2,8 +2,6 @@
 resolver::dns_servers: ['10.0.0.10']
 resolver::add_external: true
 
-#firewall::ports: [22]
-
 classes:
   - profile::firewall
   - profile::filebeat
