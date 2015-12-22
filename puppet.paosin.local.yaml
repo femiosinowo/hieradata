@@ -1,4 +1,4 @@
-firewall::desc: '100 allow multiple ports to be opened for puppet stuff'
+firewall::desc: '200 allow multiple ports to be opened for puppet stuff'
 firewall::ports: [443,61613,8140]
 firewall::proto: tcp
 firewall::action: accept

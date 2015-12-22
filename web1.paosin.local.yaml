@@ -1,6 +1,2 @@
-resolver::dns_servers: ['10.0.0.10']
-resolver::add_external: true
-
-
 classes:
   - role::mysql
