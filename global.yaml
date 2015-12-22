@@ -4,3 +4,4 @@ resolver::add_external: true
 
 classes:
   - profile::firewall
+  - profile::filebeat
