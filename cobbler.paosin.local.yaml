@@ -1,4 +1,5 @@
+firewall::desc: 'allow multiple ports to be opened'
 firewall::ports: [22,40,50,60]
-
-#classes:
-#  - profile::firewall
+firewall::proto: tcp
+firewall::action: accept
+ 
