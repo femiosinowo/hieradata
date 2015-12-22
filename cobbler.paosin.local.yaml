@@ -1,5 +1,5 @@
 classes:
   - firewall
   firewall::dport: ['40','50','60']
-  firewall::proto: 'tcp'
-  firewall::action: 'accept'
+  #firewall::proto: 'tcp'
+  #firewall::action: 'accept'
