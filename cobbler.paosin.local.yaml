@@ -1,5 +1,4 @@
-classes:
-  - firewall
-  #firewall::dport: ['40','50','60']
-  #firewall::proto: 'tcp'
-  #firewall::action: 'accept'
+firewall::ports: [22,40,50,60]
+
+#classes:
+#  - profile::firewall
