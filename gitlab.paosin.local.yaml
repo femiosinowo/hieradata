@@ -3,7 +3,7 @@ firewall::ports: [22,80,443]
 firewall::proto: tcp
 firewall::action: accept
 
-network::ipaddress: '10.0.0.121'
+network::ipaddress: '10.0.0.25'
 
 
 classes:
