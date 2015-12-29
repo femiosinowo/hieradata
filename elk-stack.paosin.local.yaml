@@ -1,2 +1,4 @@
 classes:
   - role::elkstack
+
+network::ipaddress: 10.0.0.113

@@ -6,3 +6,6 @@ firewall::action: accept
 classes:
   - epel
   - role::puppetmaster
+  
+  
+network::ipaddress: 10.0.0.22
