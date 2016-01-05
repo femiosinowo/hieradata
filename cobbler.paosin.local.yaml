@@ -1,6 +1,6 @@
 firewall::desc: '200 allow multiple ports to be opened'
 firewall::ports: [22,69,80,443,25150,25151]
-firewall::proto: tcp
+firewall::proto: ['tcp','udp']
 firewall::action: accept
 
 network::ipaddress: 10.0.0.20
