@@ -1,7 +1,3 @@
-firewall::desc: '200 allow multiple ports to be opened for puppet stuff'
-firewall::ports: [22,443,61613,8140,8088]
-firewall::proto: tcp
-firewall::action: accept
 network::ipaddress: '10.0.0.22'
 
 classes:
