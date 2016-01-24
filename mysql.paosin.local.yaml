@@ -1,3 +1,5 @@
+network::ipaddress: '10.0.0.45'
+
 mysql::override_options: ''
 mysql::db_user_name: 'femi'
 mysql::db_user_password: 'P@ssw0rd'
