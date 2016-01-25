@@ -1,0 +1,5 @@
+network::ipaddress: '10.0.0.62'
+
+classes:
+  - epel
+  - role::puppetmaster

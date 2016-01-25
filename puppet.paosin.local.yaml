@@ -1,3 +1,4 @@
+network::ipaddress: '10.0.0.60'
 classes:
   - epel
-  - role::puppetmaster
+  - role::haproxy-puppet
