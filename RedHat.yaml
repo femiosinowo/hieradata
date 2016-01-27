@@ -1,0 +1,3 @@
+classes:
+  - epel
+  - profile::redhat
