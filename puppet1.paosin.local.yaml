@@ -2,6 +2,8 @@ classes:
   - epel
   - role::puppetmaster
   - mcollective::server
+  - mcollective::middleware
+  - mcollective::client
   
 network::ipaddress: '10.0.0.61'
 mcollective::client_password: 'P@ssw0rdP@ssw0rd'
