@@ -1,0 +1,8 @@
+classes:
+  - epel
+  - role::activemq
+  
+network::ipaddress: '10.0.0.65'
+ 
+  
+  
