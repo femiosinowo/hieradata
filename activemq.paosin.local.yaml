@@ -1,4 +1,5 @@
 classes:
   - role::activemq
-  
+  - mcollective::middleware
+
 network::ipaddress: '10.0.0.65'
