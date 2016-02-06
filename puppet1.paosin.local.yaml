@@ -1,12 +1,6 @@
 classes:
 - epel
 - role::puppetmaster
-- mcollective::client
-mcollective::plugin::agents:
-  package: {
-    }
-  service: {
-    }
-  puppet:
-    version: latest
+- profile::mco-client
+ 
 network::ipaddress: 10.0.0.61
