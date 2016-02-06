@@ -6,5 +6,12 @@ lamp::mysql_password: 'P@ssw0rd'
 classes:
   - role::lamp
   - mcollective::client
-
+mcollective::client::package_ensure: 'latest'
+mcollective::plugin::clients:
+package:
+version: 'latest'
+service:
+version: 'latest'
+puppet:
+version: 'latest'
 ---
