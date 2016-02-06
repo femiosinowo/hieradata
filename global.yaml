@@ -7,7 +7,7 @@ classes:
   - profile::filebeat
   - profile::base
   - profile::network_p
-  - profile::mco-server
+  - mcollective::server
 
 firewall::desc: '100 allow multiple ports to be opened'
 firewall::ports: [22]
