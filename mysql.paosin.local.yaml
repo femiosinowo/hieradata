@@ -1,9 +1,12 @@
 classes:
-- role::mysql
-network::ipaddress: 10.0.0.45
+  - role::mysql
+  - profile::mco-client
+network::ipaddress: '10.0.0.45'
+
 mysql::override_options: ''
-mysql::db_user_name: femi
-mysql::db_user_password: P@ssw0rd
-mysql::db_host: mysql.paosin.local
-mysql::db_name: wordpress1
-mysql::db_password: P@ssw0rd
+mysql::db_user_name: 'femi'
+mysql::db_user_password: 'P@ssw0rd'
+mysql::db_host: 'mysql.paosin.local'
+mysql::db_name: 'wordpress1'
+mysql::db_password: 'P@ssw0rd'
+ 
