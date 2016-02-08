@@ -5,5 +5,4 @@ lamp::mysql_password: 'P@ssw0rd'
 
 classes:
   - role::lamp
-  - profile::mco-client
 ---

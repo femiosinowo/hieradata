@@ -1,1 +1,25 @@
-###not in use
+resolver::dns_servers: ['10.0.0.10']
+resolver::add_external: true
+
+classes:
+  - profile::firewall
+  - profile::filebeat
+  - profile::base
+  - profile::network_p
+  - mcollective::server
+
+firewall::desc: '100 allow multiple ports to be opened'
+firewall::ports: [22]
+firewall::proto: tcp
+firewall::action: accept
+
+network::gateway_addr: '10.0.0.1'
+network::netmask: '255.0.0.0'
+
+mcollective::brokerhost: 'activemq.paosin.local'
+
+mcollective::client_password: 'P@ssw0rdP@ssw0rd'
+mcollective::server_password: 'P@ssw0rdP@ssw0rd'
+mcollective::psk_key: 'f525ae7c92fca724b06ed6701cf99ca255e992f9a057084ddbfb75c73dc9c4d9'
+mcollective::hosts:
+  - 'activemq.paosin.local'
