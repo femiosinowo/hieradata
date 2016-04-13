@@ -2,5 +2,6 @@ classes:
   - role::cobbler
 
 
+
 network::ipaddress: 10.0.0.20
 
