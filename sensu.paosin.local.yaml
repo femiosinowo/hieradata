@@ -1,2 +1,2 @@
 classes:
-    - role::sensu
+    - role::sensu_server
