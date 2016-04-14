@@ -2,7 +2,6 @@ resolver::dns_servers: ['10.0.0.10']
 resolver::add_external: true
 
 sensu::serverip: 10.0.0.57
-sensu::server: false
 
 classes:
   - profile::firewall
