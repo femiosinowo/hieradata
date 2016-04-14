@@ -1,8 +1,8 @@
 resolver::dns_servers: ['10.0.0.10']
 resolver::add_external: true
 
-sensu::sensu_server_ip: 10.0.0.57
-uchiwa::sensu_server_ip: 10.0.0.57
+sensu::server_ip: 10.0.0.57
+
 classes:
   - profile::firewall
   - profile::filebeat
