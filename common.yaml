@@ -9,7 +9,7 @@ classes:
   - profile::base
   - profile::network_p
   - sensu
-  - profile::sensu_client
+  - profile::sensu_plugins
   
 sensu::server: false
 sensu::install_repo: true
