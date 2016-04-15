@@ -2,6 +2,7 @@ classes:
     - role::sensu_server
 
 sensu::server: true
+sensu::redis_host: 127.0.0.1
 sensu::subscriptions:
   - base
   
