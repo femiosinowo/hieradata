@@ -26,8 +26,6 @@ sensu::api_password: sensu
 sensu::api_port: 4567
 
 sensu::redis_host: 10.0.0.57
-sensu::redis_user: sensu
-sensu::redis_password: sensu
 sensu::redis_port: 6379
   
 firewall::desc: '100 allow multiple ports to be opened'
