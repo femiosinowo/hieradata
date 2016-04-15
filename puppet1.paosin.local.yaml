@@ -1,6 +1,5 @@
 classes:
 - epel
 - role::puppetmaster
-- profile::sensu_client
  
 network::ipaddress: 10.0.0.61
