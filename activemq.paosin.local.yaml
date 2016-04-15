@@ -1,6 +1,6 @@
 classes:
   - role::activemq
   - mcollective::middleware
-  - profile::sensu_client
+
 mcollective::middleware::jetty_password: openssl rand -base64 20
 network::ipaddress: '10.0.0.65'

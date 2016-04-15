@@ -8,7 +8,26 @@ classes:
   - profile::filebeat
   - profile::base
   - profile::network_p
- 
+  - sensu
+  
+  
+sensu::install_repo: true
+sensu::purge:
+  config: true
+sensu::rabbitmq_host: 10.0.0.57
+sensu::rabbitmq_vhost: '/sensu'
+sensu::rabbitmq_password: password
+sensu::rabbitmq_port: 5672
+
+sensu::api_host: 10.0.0.57
+sensu::api_user: sensu
+sensu::api_password: password
+sensu::api_port: 4567
+
+sensu::redis_host: 10.0.0.57
+sensu::redis_user: sensu
+sensu::redis_password: password
+sensu::redis_port: 6379
   
 firewall::desc: '100 allow multiple ports to be opened'
 firewall::ports: [22]
