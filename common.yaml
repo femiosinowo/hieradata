@@ -19,7 +19,7 @@ sensu::rabbitmq_vhost: '/sensu'
 sensu::rabbitmq_password: password
 sensu::rabbitmq_port: 5672
 
-sensu:api: true
+sensu::api: true
 sensu::api_host: 10.0.0.57
 sensu::api_user: sensu
 sensu::api_password: password
