@@ -10,7 +10,7 @@ classes:
   - profile::network_p
   - sensu
   
-  
+sensu::server: false
 sensu::install_repo: true
 sensu::purge:
   config: true
