@@ -1,7 +1,7 @@
 resolver::dns_servers: ['10.0.0.10']
 resolver::add_external: true
 
-sensu::server_ip: 10.0.0.57
+
 
 classes:
   - profile::firewall
@@ -10,7 +10,9 @@ classes:
   - profile::network_p
   - sensu
   - profile::sensu_plugins
-  
+
+sensu::server_ip: 10.0.0.57 
+sensu::use_embedded_ruby: true
 sensu::server: false
 sensu::install_repo: true
 sensu::purge:
