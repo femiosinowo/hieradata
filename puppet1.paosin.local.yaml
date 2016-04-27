@@ -1,5 +1,20 @@
 classes:
-- epel
-- role::puppetmaster
+  - epel
+  - role::puppetmaster
+  - infrastructure::route53::dnsrecord
+  - infrastructure::ec2::sensu
+  - infrastructure::ec2::activemq
+  - infrastructure::ec2::tomcat
+  - infrastructure::ec2::elkstack
+  
  
+infrastructure::ec2::image_id: 'ami-204c544a'
+infrastructure::ec2::region: 'us-east-1'
+infrastructure::ec2::subnet: 'DevOps-Public-Subnet'
+infrastructure::ec2::key_name:  'DevOps-Keys'
+infrastructure::ec2::availability_zone:  'us-east-1d'
+infrastructure::ec2::instance_type: 't2.micro'
+infrastructure::ec2::vpc: 'DevOps-GCIO-VPC'
+infrastructure::ec2::iam_instance_profile_name: 'ec2Tags'
+infrastructure::ec2::iam_instance_profile_arn: 'ec2Tags'
 network::ipaddress: 10.0.0.61
