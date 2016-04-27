@@ -1,7 +1,6 @@
 classes:
   - epel
   - role::puppetmaster
-  - infrastructure::route53::dnsrecord
   - infrastructure::ec2::sensu
   - infrastructure::ec2::activemq
   - infrastructure::ec2::tomcat
