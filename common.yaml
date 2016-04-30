@@ -37,6 +37,9 @@ firewall::ports: [22]
 firewall::proto: tcp
 firewall::action: accept
 
+elk::host: 'elkstack'
+
+
 network::gateway_addr: '10.0.0.1'
 network::netmask: '255.0.0.0'
 
