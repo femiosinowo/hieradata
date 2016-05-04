@@ -10,6 +10,7 @@ classes:
   - profile::network_p
   - sensu
   - profile::sensu_plugins
+  - mcollective::server
 
 sensu::server_ip: 10.0.0.57 
 sensu::use_embedded_ruby: true
