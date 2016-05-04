@@ -1,6 +1,6 @@
 classes:
   - profile::dns_server1
   
- ::bind::params::default_config :
+ ::bind::params::default_config:
   - pid-file: '/var/run/named/named.pid'
   - session-keyfile: '/var/run/named/session.key'
