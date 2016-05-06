@@ -1,2 +1,4 @@
+network::ipaddress: 10.0.0.10
+
 classes:
   - role::server_dns
